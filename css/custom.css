@@ -1,0 +1,61 @@
+.radius {
+  border-radius: 25px;
+}
+
+.port-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.border-portfolio {
+  border: 1px solid black;
+}
+
+a.project-link {
+  font-size: 20pt;
+}
+
+p.project-technologies {
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+p.project-technologies.bottom {
+  margin-bottom: 15px;
+}
+
+p.description {
+  text-align: left;
+}
+
+p.game {
+  text-align: left;
+  margin: 5px 0;
+}
+
+p.message {
+  margin-top: 10px;
+}
+
+embed.demo {
+  margin: 30px 0;
+  height: 450px;
+  width: 700px;
+}
+
+@media (max-width: 1300px) {
+  embed.demo {
+    width: 500px;
+    height: 300px;
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  embed.demo {
+    width: 330px;
+    height: 200px;
+    margin: 30px 0;
+  }
+}
