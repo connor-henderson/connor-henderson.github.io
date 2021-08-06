@@ -59,3 +59,21 @@ embed.demo {
     margin: 30px 0;
   }
 }
+
+div.link-divider {
+  display: flex;
+  justify-content: center;
+}
+
+div.link-divider > * {
+  margin: 0 10px;
+}
+
+div.link-divider > a:first-child {
+  margin-left: -0px;
+}
+
+div.link-divider > p {
+  font-size: 20pt;
+  color: #2c3e50;
+}
